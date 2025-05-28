@@ -1,10 +1,12 @@
 ## Tela Index 
 
-![image](https://github.com/user-attachments/assets/d204682c-f256-4f2a-aafd-d4c3392a5d91)
+![image](https://github.com/user-attachments/assets/ca63111f-d681-4ce7-9ad4-d6e82bc1bcbb)
+
 
 ## Tela de Registro
 
-![image](https://github.com/user-attachments/assets/f49a72ff-9478-4fca-96cb-4c4ac80f60b5)
+![image](https://github.com/user-attachments/assets/160c41dd-a19d-4424-81d2-8be25710a1f0)
+
 
 ## Tela de Login Usuário e Funcionário
 
