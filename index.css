@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body {
+    font-family: Arial, sans-serif;
+    background-image: url(2077ba4a-9bec-415d-b9f8-c377d0d2211a.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+} */
+
+/* Navbar */
+.navbar {
+    background-color: #000;
+    color: white;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo_barbearia {
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFD700;
+}
+
+.links {
+    display: flex;
+    gap: 30px;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.links a:hover {
+    color: #FFD700;
+}
+
+/* Container principal */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 80px); /* Altura total menos a altura do header */
+    padding: 20px;
+}
+
+.welcome-box {
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 400px;
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.logo-image {
+    width: 300px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+   
+}
+
+h1 {
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.input-container{
+        display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+input{    
+    display: inline-block;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    transition: all 0.3s ease;}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #FFD700;
+    transform: translateY(-2px);
+}
+
+/* Responsivo */
+@media (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        gap: 15px;
+        padding: 15px;
+    }
+    
+    .links {
+        gap: 15px;
+    }
+    
+    .welcome-box {
+        width: 90%;
+        padding: 20px;
+    }
+    
+    .logo-image {
+        width: 200px;
+    }
+}
